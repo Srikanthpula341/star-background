@@ -1,6 +1,6 @@
 {
   "name": "star-background",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -20,5 +20,11 @@
     "star-background"
   ],
   "author": "Srikanth Pula",
-  "license": "MIT"
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "@react-three/fiber": "^8.16.8",
+    "@react-three/drei": "^9.108.1",
+    "maath": "^1.0.0"
+  }
 }
