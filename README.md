@@ -8,7 +8,10 @@ First, install the package and its peer dependencies:
 
 ```sh
 npm install star-background react @react-three/fiber @react-three/drei maath
-Usage
+ev
+```
+
+## Usage
 
 Create a React component to use the StarsCanvas component from the star-background package:
 // src/App.tsx
@@ -32,14 +35,17 @@ const App: React.FC = () => {
 
 export default App;
 Finally, run your React application:
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-    Using npm:
-    npm startUsing yarn:
-
-sh
-
-    yarn start
-
+## 
 Navigate to http://localhost:3000 in your web browser to see the star background.
 Props
 
@@ -57,8 +63,9 @@ Example
 Here's a complete example of how to use the StarsCanvas component in a React application:
 
 tsx
-
+```bash
 // src/App.tsx
+
 import React from 'react';
 import { StarsCanvas } from 'star-background';
 
@@ -78,8 +85,8 @@ const App: React.FC = () => {
 }
 
 export default App;
-
-Contributing
+```
+## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request if you have any improvements or bug fixes.
 License
